@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.start{
+    background-image: url("images/c1.jpg");
+    background-size: cover;
+    height: 650px;
+}
+
+.start h1{
+    position: absolute;
+     top: 500px; 
+     left: 400px;
+     margin-bottom: 15rem;
+}
+
+.start p{
+    position: relative;
+    top: 500px;
+    left: 400px;
+}
+
+nav{
+    color: white;
+}
+
+.card{
+    display: inline-block;
+}
+.email{
+    align-self: start;
+}
+
+.form-bottom{
+    max-width: 80%;
+    margin: auto;
+}
+.text-dark{
+    background-color: white;
+}
+
+#searchbar{
+    position: absolute;
+    right: 10px;
+}
+@media screen and (max-width:768px) {
+    .row row-cols-1 row-cols-md-2 g-4{
+        flex-direction: column;
+    }
+}
+
